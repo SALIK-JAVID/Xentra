@@ -1,7 +1,8 @@
 @import "tailwindcss";
+@config "../tailwind.config.js";
 
 body {
-    font-family: 'general', 'sans-serif';
+    font-family: 'general', sans-serif;
     width: 100dvw;
     background-color: #dfdff0;
     overflow-x: hidden;
@@ -34,4 +35,7 @@ body {
         src: url("/fonts/zentry-regular.woff2") format("woff2");
         font-display: swap;
       }
+  }
+  :root {
+    --test-color: #5724FF;
   }
