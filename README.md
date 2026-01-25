@@ -1,0 +1,1 @@
+- we used the taiwind version 3.4.17 in this project not the latest cause we were getting a bug on the edge case of this project.
