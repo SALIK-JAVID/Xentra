@@ -1,1 +1,7 @@
-- we used the taiwind version 3.4.17 in this project not the latest cause we were getting a bug on the edge case of this project.
+<p align="center">
+  <img src="./gallery-5.webp" alt="Xentra" width="100%" />
+</p>
+
+## Features :
+
+- we need to add backend to it & some more feature before making it live.
