@@ -7,3 +7,4 @@
 - we need to add backend to it & some more feature before making it live.
 - Before we try to make it live use lazy loading concept in it.
 - adding an animated login and sinup page
+- using mongodb backend.
