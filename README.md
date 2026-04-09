@@ -1,5 +1,4 @@
-<div align="center">
-  <img src="client/public/img/jsm-logo.png" alt="Xentra Logo" height="80">
+  <img src="client/public/img/logo.png" alt="Xentra Logo" height="80">
   <br />
   <h1>Xentra - The Metagame Layer</h1>
   <p>A sophisticated, high-performance web platform featuring cutting-edge animations and a fully secure Full-Stack authentication ecosystem.</p>
