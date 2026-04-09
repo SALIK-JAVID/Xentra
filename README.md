@@ -2,7 +2,7 @@
   <h1>Xentra - The Metagame Layer</h1>
   <p>A sophisticated, high-performance web platform featuring cutting-edge animations and a fully secure Full-Stack authentication ecosystem.</p>
   <br />
-  <video src="client/public/videos/hero-4.mp4" autoplay loop muted playsinline width="800" style="border-radius: 12px; margin-top: 10px;"></video>
+  <video src="https://github.com/SALIK-JAVID/Xentra/raw/main/client/public/videos/hero-4.mp4" autoplay loop muted playsinline width="800" style="border-radius: 12px; margin-top: 10px;"></video>
 </div>
 
 <hr />
