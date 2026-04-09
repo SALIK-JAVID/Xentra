@@ -1,3 +1,4 @@
+<div align="center">
   <img src="client/public/img/logo.png" alt="Xentra Logo" height="80">
   <br />
   <h1>Xentra - The Metagame Layer</h1>
