@@ -1,25 +1,33 @@
-import React from 'react'
-import Hero from './components/Hero'
-import About from './components/About'
-import Navbar from './components/Navbar'
-import Features from './components/Features'
-import Story from './components/Story'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
+import ProtectedRoute from './components/ProtectedRoute';
+import { AuthProvider } from './context/AuthContext';
 
 const App = () => {
   return (
-    <main className='relative min-h-screen w-screen  overflow-hidden'>
-      <Navbar />
-      <Hero />
-      <About />
-      <Features />
-      <Story />
-      <Contact />
-      <Footer />
-    </main>
-  )
-}
+    <AuthProvider>
+      <Router>
+        <Routes>
+          {/* Protected Home Route */}
+          <Route 
+            path="/" 
+            element={
+              <ProtectedRoute>
+                <Home />
+              </ProtectedRoute>
+            } 
+          />
+          
+          {/* Public Auth Routes */}
+          <Route path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+        </Routes>
+      </Router>
+    </AuthProvider>
+  );
+};
 
-export default App
-
+export default App;
